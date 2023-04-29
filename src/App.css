@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding : 0;
+  margin : 0;
+}
+
+.App {
+  margin:10px;
+}
+
+.titleInput {
+  width : 200px;
+}
+
+.Head {
+  margin : 20px 0px;
+  text-align: center;
+}
+.Head>div>input {
+  margin-right : 10px;
+}
+.Head>h1 {
+  margin-Top : 20px;
+}
+
+.Card-List {
+  display : flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap : 1%;
+}
+.Card {
+  width : 10%;
+  height : 125px;
+  border : 2px green solid;
+  border-radius: 10px;
+  word-break: break-all;
+  margin-top : 10px;
+}
+
+
