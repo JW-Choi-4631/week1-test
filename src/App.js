@@ -26,7 +26,7 @@ function App() {
       }
       setCard([...card, newCard]);
       console.log(card);
-      setTitle('제목을 입력하세요.(최대 20자)'');
+      setTitle('제목을 입력하세요.(최대 20자)');
     }
    
   };
